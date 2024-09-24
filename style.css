@@ -1,0 +1,142 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #aa2727;
+    color: #ffffff;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #fbb040;
+}
+
+.welcome {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.welcome h2 {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #fbb040;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin: 10px 5px;
+    cursor: pointer;
+    width: 100%; /* Largura total para todos os botões */
+    font-size: 1em;
+    transition: background-color 0.3s, transform 0.2s; /* Adicionando transições */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra leve */
+}
+
+button:hover {
+    background-color: #dd683f;
+    transform: translateY(-2px); /* Efeito de elevação ao passar o mouse */
+}
+
+button:active {
+    transform: translateY(0); /* Volta para a posição original ao clicar */
+}
+
+button:focus {
+    outline: none; /* Remove contorno padrão ao focar */
+    box-shadow: 0 0 0 3px rgba(251, 176, 64, 0.5); /* Adiciona sombra ao focar */
+}
+
+.tipo-cadastro {
+    text-align: center;
+    padding: 20px;
+}
+
+.tipo-cadastro button {
+    width: 45%; /* Largura dos botões na seção de cadastro */
+}
+
+.form-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="tel"],
+.form-container input[type="password"] {
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.form-container input:focus {
+    border-color: #fbb040;
+    outline: none;
+}
+
+.form-container label {
+    margin: 5px 0;
+}
+
+footer {
+    background-color: #c2500d;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+}

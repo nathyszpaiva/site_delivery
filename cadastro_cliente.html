@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery - Cadastro de Cliente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Cadastro de Cliente</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="form-container">
+                <form>
+                    <label><input type="radio" name="tipo" value="fisica" required> Pessoa Física</label>
+                    <label><input type="radio" name="tipo" value="juridica"> Pessoa Jurídica</label>
+                    <input type="text" placeholder="Nome" required>
+                    <input type="email" placeholder="E-mail" required>
+                    <input type="tel" placeholder="Telefone" required>
+                    <input type="text" placeholder="Endereço" required>
+                    <input type="password" placeholder="Senha" required>
+                    <input type="password" placeholder="Confirmar Senha" required>
+                    <label><input type="checkbox" required> Concordo com os termos de privacidade</label>
+                    <button type="submit">Cadastrar</button>
+                    <button onclick="window.location='cadastro.html'" type="button">Voltar</button>
+                    <p>Já tem uma conta? <a href="login.html">Logar</a></p>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Delivery App. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+</body>
+</html>
